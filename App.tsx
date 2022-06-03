@@ -26,6 +26,8 @@ export default function App() {
 
 	if (fontsLoaded) {
 		SplashScreen.preventAutoHideAsync()
+	} else {
+		SplashScreen.hideAsync()
 	}
 
 	return (
