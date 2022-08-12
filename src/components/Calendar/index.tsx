@@ -47,7 +47,7 @@ export function Calendar() {
 			}}
 
 			firstDay={1}
-			minDate={new Date()}
+			minDate={new Date().toISOString()}
 		/>
 	);
 }
