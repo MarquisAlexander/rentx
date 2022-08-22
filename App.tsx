@@ -12,8 +12,9 @@ import {
 	Archivo_600SemiBold,
 } from "@expo-google-fonts/archivo";
 
-import { Home } from "./src/screens/Home";
+import { SchedulingComplete } from "./src/screens/SchedulingComplete";
 import theme from "./src/styles/theme";
+import { SchedulingDetails } from "./src/screens/SchedulingDetails";
 
 export default function App() {
 	const [fontsLoaded] = useFonts({
@@ -32,7 +33,8 @@ export default function App() {
 
 	return (
 		<ThemeProvider theme={theme}>
-			<Home />
+			{/* <Home /> */}
+			<SchedulingComplete />
 		</ThemeProvider>
 	);
 }
